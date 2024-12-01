@@ -136,6 +136,9 @@ cd multi-core-fiber
 # Download dependencies
 go mod tidy
 
+# Docker Compose
+docker-compose up --build
+
 # Run the application
 go run main.go
 ```
