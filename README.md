@@ -148,10 +148,3 @@ go run main.go
 | `POSTGRES_URL` | PostgreSQL connection string | `localhost:5432` |
 | `SENTRY_DSN` | Sentry error tracking DSN | - |
 
-## Performance Insights
-
-- **Core Utilization**: Dynamically uses all available CPU cores
-- **Concurrency**: Efficient goroutine and channel management
-- **Low Overhead**: Fiber framework provides minimal performance impact
-
-
